@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.text-left{
+    text-align-last: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear {
+	content: "";
+	clear: both;
+	display: block;
+	 
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #525254;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+/* Begain all CSS */
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif
+}
+.header-section {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	padding: 10px 0;
+}
+.header-logo{
+    width: 30%;
+
+}
+.logo span {
+	margin-top: 13px;
+	display: inline-block;
+	font-size: 19px;
+	font-weight: 500;
+}
+.header-logo img {
+	width: 50px;
+	float: left;
+}
+.header-manu{
+    width: 60%;
+}
+
+.header-button{
+    width: 10%;
+    text-align: right;
+}
+.header-btn {
+	border: 1px solid #5f7de3;
+	display: inline-block;
+	padding: 11px 17px;
+	border-radius: 10px;
+	color: #5f7de3;
+}
+.header-btn:hover {
+	background: rgb(14, 136, 136);
+	color: #fff;
+}
+.praimare-manu{}
+.praimare-manu ul{}
+.praimare-manu ul li{
+    display: inline-block;
+    position: relative;
+}
+.praimare-manu ul li a {
+	display: block;
+	padding: 0 20px;
+	font-size: 20px;
+	line-height: 41px;
+}
+.praimare-manu ul li a:hover{}
+.praimare-manu ul li ul {
+	position: absolute;
+	width: 229px;
+	top: 134%;
+	left: 0%;
+	background: aliceblue;
+	opacity: 0;
+	visibility: hidden;
+    transition: .4s;
+    transform: scaley(0);
+    transform-origin: top center;
+    border-radius: 5px;
+}
+.praimare-manu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transition: .4s;
+    transform: scaley(1);
+
+}
+.praimare-manu ul li ul li a{}
+.praimare-manu ul li ul li a:hover{}
+ 
+
+/* Banner CSS */
+.banner-section{
+    background: url(./reflection-after-1200px.jpg) no-repeat center center;
+   background-size: cover;
+   
+    padding: 220px 0;
+    color: #fff;
+    position: relative;
+    z-index: 4;
+    margin-top: 65px;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    left: 0;
+     top: 0;
+    height: 100%;
+    width: 100%;
+   
+    z-index: -1;
+
+    background: rgba(0, 0, 0, .4);
+}
+.banner-content a:hover{
+    background:  #5f7de3 ;
+}
+.banner-content h3 {
+	font-size: 23px;
+	font-weight: 400;
+}
+.banner-content h2 {
+	font-size: 60px;
+	margin: 30px 0;
+}
+
+.default-btn {
+	/* color: #738de7; */
+	background: #ddd;
+	padding: 16px 20px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+	font-weight: 400;
+	border-radius: 10px;
+}
+/* banner-section */
+.banner-bottom{
+    background: #f7f9ff;
+    padding: 100px 0;
+}
+.video-left {
+	width: 48%;
+	text-align: right;
+}
+.video-content-right{
+    width: 48%;
+}
+.video-content-right h3 {
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 31px;
+}
+.video-content-right p {
+	color: #767676;
+	font-size: 18px;
+	line-height: 1.8em;
+}
+/* service-section */
+.service-section{}
+.service-section h1 {
+	font-size: 50px;
+	margin-top: 20px;
+}
+..service-section p {
+	font-size: 16px;
+	font-weight: 300;
+	margin: 31px;
+	margin: 9px 0px;
+}
+/* service-item */
+.service-item{
+    margin-top: 90px;
+}
+.sarvice-box {
+	width: 31.3%;
+	box-shadow: 4px 4px 20px 0 rgba(0,0,0, .1);
+	margin-right: 2%;
+	margin-bottom: 30px;
+	padding: 42px;
+	box-sizing: border-box;
+}
+.s-icon {
+	width: 50px;
+	float: left;
+	height: 100px;
+	font-size: 30px;
+	color: #8599d9;
+}
+.s-section{}
+.s-section h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 14px;
+}
+.s-section p {
+	font-size: 19px;
+	font-weight: 200;
+	line-height: 1.6em;
+}
